@@ -1,0 +1,65 @@
+--- @meta
+--- @class TeamPlayer
+--- @field gold_spent_on_items integer                           # The amount of gold spent on items.
+--- @field observer_wards_placed integer                         # The number of observer wards placed.
+--- @field experimental2_gold integer                            # Experimental field for gold.
+--- @field possible_hero_selection integer                       # The number of possible hero selections.
+--- @field reliable_gold integer                                 # The amount of reliable gold.
+--- @field buyback_cooldown_time number                          # The cooldown time for buyback in seconds.
+--- @field tp_scrolls_purchased integer                          # The number of teleport scrolls purchased.
+--- @field is_guide_player boolean                               # Indicates if the player is a guide player.
+--- @field hero_damage integer                                   # The total damage dealt by the hero.
+--- @field roshan_gold integer                                   # The amount of gold obtained from Roshan.
+--- @field nearby_creep_death_count integer                      # The count of nearby creep deaths.
+--- @field custom_buyback_cooldown number                        # Custom cooldown time for buyback in seconds.
+--- @field totalearned_xp integer                                # The total experience points earned.
+--- @field lasthit_count integer                                 # The number of last hits achieved.
+--- @field gold_spent_on_consumables integer                     # The amount of gold spent on consumable items.
+--- @field commands_issued integer                               # The number of commands issued by the player.
+--- @field wards_destroyed integer                               # The number of wards destroyed by the player.
+--- @field creeps_stacked integer                                # The number of creeps stacked by the player.
+--- @field wards_purchased integer                               # The number of wards purchased.
+--- @field gold_spent_on_support integer                         # The amount of gold spent on support items.
+--- @field buyback_gold_limit_time number                        # The time limit for buyback gold accumulation in seconds.
+--- @field custom_stats number                                   # Custom statistics field.
+--- @field rune_pickups integer                                  # The number of runes picked up by the player.
+--- @field camps_stacked integer                                 # The number of camps stacked by the player.
+--- @field unreliable_gold integer                               # The amount of unreliable gold.
+--- @field starting_position integer                             # The starting position of the player.
+--- @field miss_count integer                                    # The number of misses by the player.
+--- @field totalearned_gold integer                              # The total amount of gold earned.
+--- @field comeback_gold integer                                 # The amount of gold gained from comeback mechanics.
+--- @field gold_spent_on_buybacks integer                        # The amount of gold spent on buybacks.
+--- @field income_gold integer                                   # The amount of gold earned as income.
+--- @field other_gold integer                                    # The amount of gold obtained from other sources.
+--- @field tower_Kills integer                                   # The number of tower kills by the player.
+--- @field networth integer                                      # The total net worth of the player.
+--- @field roshan_kills integer                                  # The number of Roshan kills by the player.
+--- @field stuns number                                          # The total duration of stuns inflicted by the player in seconds.
+--- @field shared_gold integer                                   # The amount of gold shared with allies.
+--- @field neutral_kill_gold integer                             # The amount of gold earned from neutral kills.
+--- @field claimed_miss_count integer                            # The number of misses claimed by the player.
+--- @field gold_lost_to_death integer                            # The amount of gold lost upon death.
+--- @field building_gold integer                                 # The amount of gold earned from destroying buildings.
+--- @field buyback_cost_time number                              # The time taken to accumulate buyback cost in seconds.
+--- @field meta_experience_awarded integer                       # The meta experience points awarded to the player.
+--- @field meta_experience integer                               # The current meta experience points of the player.
+--- @field experimental_gold integer                             # Experimental field for gold.
+--- @field meta_level integer                                    # The current meta level of the player.
+--- @field is_new_player boolean                                 # Indicates if the player is a new player.
+--- @field ward_kill_gold integer                                # The amount of gold earned from killing wards.
+--- @field courier_gold integer                                  # The amount of gold earned from couriers.
+--- @field bounty_gold integer                                   # The amount of gold earned from bounties.
+--- @field hero_kill_gold integer                                # The amount of gold earned from killing heroes.
+--- @field creep_kill_gold integer                               # The amount of gold earned from killing creeps.
+--- @field sentry_wards_placed integer                           # The number of sentry wards placed.
+--- @field ability_gold integer                                  # The amount of gold earned from abilities.
+--- @field healing number                                        # The total amount of healing done.
+--- @field deny_count integer                                    # The number of denies performed by the player.
+--- @field lasthit_multikill integer                             # The maximum number of last hits achieved in a single wave.
+--- @field lasthit_streak integer                                # The maximum streak of last hits achieved.
+--- @field claimed_deny_count integer                            # The number of denies claimed by the player.
+--- @field creepdeny_gold integer                                # The amount of gold earned from denying creeps.
+TeamPlayer = { }
+
+return TeamPlayer
